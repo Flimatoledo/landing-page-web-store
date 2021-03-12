@@ -1,8 +1,11 @@
 (() => {
   let time = 3500,
-    currentImageIndex = 0,
-    images = document.querySelectorAll("#slider img")
-  max = images.length;
+      currentImageIndex = 0,
+      btnMenu = document.querySelector('.btn-menu')
+      btnClose = document.querySelector('.btnClose');
+      menu = document.querySelector('.btnAbrir');
+      images = document.querySelectorAll("#slider img")
+      max = images.length;
 
   const nextImg = () => {
 
@@ -15,7 +18,7 @@
     images[currentImageIndex].classList.add('selected');
   }
 
-  window.addEventListener('load',() => {
+  window.addEventListener('load', () => {
     setInterval(() => {
       nextImg();
 

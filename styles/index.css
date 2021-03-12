@@ -14,7 +14,14 @@ body {
 }
 
 .finder {
+  height: 1.25rem;
   border: none;
+}
+
+.finder:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
 }
 
 .search-bar {
@@ -229,7 +236,7 @@ body {
     padding: 0.25rem 0;
   }
 
-  .header li:first-child{
+  .header li:first-child {
     order: 1;
   }
 
