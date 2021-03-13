@@ -45,7 +45,7 @@ nav {
 }
 
 nav ul {
-  background-color: rgba(255, 255, 255, 0.616);
+  background-color: rgba(255, 255, 255, 0.95);
   list-style: none;
   position: absolute;
   width: 100%;
@@ -252,10 +252,6 @@ label {
   .logo img {
     width: 45%;
   }
-  input[type="checkbox"]:checked ~ nav {
-    background-color: rgba(255, 255, 255, 0.9);
-    transform: translateY(11.5rem);
-  }
 
   nav {
     z-index: 2;
@@ -294,11 +290,7 @@ label {
   .logo img {
     width: 45%;
   }
-  input[type="checkbox"]:checked ~ nav {
-    background-color: rgba(255, 255, 255, 0.9);
-    transform: translateY(11.5rem);
-  }
-
+  
   nav {
     z-index: 2;
     height: 20%;
